@@ -1,0 +1,11 @@
+export * from './authenticationController.service';
+import { AuthenticationControllerService } from './authenticationController.service';
+export * from './movieCategoryController.service';
+import { MovieCategoryControllerService } from './movieCategoryController.service';
+export * from './movieClickController.service';
+import { MovieClickControllerService } from './movieClickController.service';
+export * from './movieController.service';
+import { MovieControllerService } from './movieController.service';
+export * from './preferencesFormController.service';
+import { PreferencesFormControllerService } from './preferencesFormController.service';
+export const APIS = [AuthenticationControllerService, MovieCategoryControllerService, MovieClickControllerService, MovieControllerService, PreferencesFormControllerService];

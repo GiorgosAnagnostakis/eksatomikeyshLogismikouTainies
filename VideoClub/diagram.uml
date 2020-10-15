@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>d261b3fe-0d48-4656-94a5-a0c88c28cefe</OriginalElement>
+  <nodes>
+    <node x="48.875" y="0.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:moviecategory</node>
+    <node x="81.375" y="146.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movie</node>
+    <node x="214.3125" y="500.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movies_seen</node>
+    <node x="60.375" y="468.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movieclicks</node>
+    <node x="358.875" y="479.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:preferencesform</node>
+    <node x="531.9375" y="500.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:roleassign</node>
+    <node x="134.8125" y="658.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:preferencesformmovies</node>
+    <node x="534.4375" y="223.0">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:roles</node>
+    <node x="258.3430000000001" y="194.8256">d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:users</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:roleassign" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:roles">
+      <point x="28.0" y="-38.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:preferencesformmovies" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:moviecategory">
+      <point x="-50.0" y="-38.0" />
+      <point x="184.8125" y="633.0" />
+      <point x="45.0" y="633.0" />
+      <point x="45.0" y="121.0" />
+      <point x="82.875" y="121.0" />
+      <point x="-34.0" y="48.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movies_seen" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movie">
+      <point x="-30.0" y="-38.0" />
+      <point x="244.3125" y="438.0" />
+      <point x="203.625" y="438.0" />
+      <point x="40.75" y="136.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:roleassign" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:users">
+      <point x="-28.0" y="-38.0" />
+      <point x="559.9375" y="448.0" />
+      <point x="452.5" y="448.0" />
+      <point x="80.625" y="92.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:preferencesform" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:users">
+      <point x="0.0" y="-59.0" />
+      <point x="434.875" y="448.0" />
+      <point x="398.75" y="448.0" />
+      <point x="26.875" y="92.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movie" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:moviecategory">
+      <point x="0.0" y="-136.0" />
+      <point x="162.875" y="121.0" />
+      <point x="150.875" y="121.0" />
+      <point x="34.0" y="48.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movieclicks" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:users">
+      <point x="31.0" y="-70.0" />
+      <point x="153.375" y="448.0" />
+      <point x="291.25" y="448.0" />
+      <point x="-80.625" y="92.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:preferencesformmovies" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:preferencesform">
+      <point x="50.0" y="-38.0" />
+      <point x="284.8125" y="633.0" />
+      <point x="434.875" y="633.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movies_seen" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:users">
+      <point x="30.0" y="-38.0" />
+      <point x="304.3125" y="448.0" />
+      <point x="345.0" y="448.0" />
+      <point x="-26.875" y="92.0" />
+    </edge>
+    <edge source="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movieclicks" target="d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:movie">
+      <point x="-31.0" y="-70.0" />
+      <point x="91.375" y="448.0" />
+      <point x="122.125" y="448.0" />
+      <point x="-40.75" y="136.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8289124668435013" x="349.0" y="367.0" />
+  <SelectedNodes>
+    <node>d261b3fe-0d48-4656-94a5-a0c88c28cefe.TABLE:users</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
