@@ -2,7 +2,7 @@
   <div class="col-sm-3 mx-auto">
     <div class="card card-signin my-5">
       <div class="card-body">
-        <h5 class="card-title text-center">Είσοδος</h5>
+        <h5 class="card-title text-center">Login</h5>
 
         <form class="form-signin" [formGroup]="loginForm">
           <div class="form-label-group">
@@ -29,7 +29,7 @@
               formControlName="password"
 
             />
-            <label for="inputPassword">Κωδικός</label>
+            <label for="inputPassword">Password</label>
           </div>
 
           <button
@@ -38,7 +38,7 @@
             type="submit"
             (click)="login()"
           >
-            Είσοδος
+            Login
           </button>
           <button
             class="btn btn-lg btn-primary btn-block text-uppercase mb-3"
@@ -46,7 +46,7 @@
             type="button"
             (click)="signUp()"
           >
-            Εγγραφή
+            Sign up
           </button>
 
         </form>
