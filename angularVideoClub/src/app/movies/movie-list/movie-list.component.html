@@ -103,14 +103,16 @@
               </ng-template>
 
 
+              <div *ngIf="suggestedMovie">
               <div class="card float-right mt-2 mb-2" style="width: 25rem;">
                 <div class="card-body">
                   <h5 class="card-title">Suggested movie</h5>
-                  <h5 class="card-title">{{suggestedMovie.title}}</h5>
-                  <img class="card-img-top" src={{suggestedMovie.imageUrl}} alt="Card image cap">
+                  <h5 class="card-title">{{suggestedMovie?.title}}</h5>
+                  <img class="card-img-top" src={{suggestedMovie?.imageUrl}} alt="Card image cap">
                   <p class="card-text">{{suggestedMovie.description}}</p>
                 </div>
               </div>
+            </div>
 
 
 </div>

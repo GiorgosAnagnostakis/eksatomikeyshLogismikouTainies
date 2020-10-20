@@ -21,8 +21,6 @@ export class PreferencesFormComponent implements OnInit {
 
   preferencesForm = this.fb.group({
     category: ['', Validators.required],
-    age: ['', Validators.required],
-
   });
 
   constructor(private fb: FormBuilder,
@@ -37,8 +35,6 @@ export class PreferencesFormComponent implements OnInit {
   submitForm() {
     const preferencesForm: PreferencesForm = {
       movieCategories: this.preferencesForm ? this.preferencesForm.value.category : null,
-      age: this.preferencesForm ? this.preferencesForm.value.age : null,
-
     };
     // Object.keys(this.preferencesForm.controls).forEach(control => {
     //   preferencesForm['' + control + ''] = this.preferencesForm.controls['' + control + ''].value;

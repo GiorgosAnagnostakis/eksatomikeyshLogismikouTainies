@@ -39,7 +39,7 @@ public class Movie {
     @Column(name = "IMAGEURL")
     private String imageUrl;
 
-    @javax.persistence.Transient
+    @Transient
     private int seen;
 
     @ManyToOne
