@@ -83,7 +83,7 @@ export class LoginComponent implements OnInit {
     this.authControllerService.authenticateUserUsingPOST(loginRequest).subscribe(data => {this.token = data; this.authenticationService.setSession(this.token.accessToken);
       console.log(localStorage)
       console.log(localStorage.getItem('formCompleted'))
-      if (localStorage.getItem('formCompleted') === '0' || localStorage.getItem('formCompleted') === null ) {
+      if (localStorage.getItem('formCompleted') === '0' || localStorage.getItem('formCompleted') === "null" || localStorage.getItem('formCompleted') === '' ) {
         this.openModal()
       } else {
         this.navigate();
